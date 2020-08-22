@@ -1,0 +1,32 @@
+How to create the angular project using command promt
+
+steps
+1 npm install -g @angular/cli@latest
+2 ng new my-first-app (ng new projectname)
+3 cd my-first-app
+4 ng serve
+5 then get 1 link just hit that link on the browser
+
+
+package.json 
+
+In this files contains all neccessory package that need to your project.
+
+e2e = is use for the ene to end testing
+node modules = dependencies code here that name see in the package.json file.
+
+* ts  = stands for typescript(also the extension).
+
+
+// how to create the components using terminal
+
+$ = ng g c servers
+
+component str
+
+servers 
+1 servers.component.css
+2 servers.component.html
+3 servers.component.spec.ts // this file i used for the testing.
+4 servers.component.ts 
+
